@@ -10,7 +10,7 @@ Para este desafio foi construido com a lib Scrapy em python e funciona da seguin
     
 <br>
 <h2>Como Funciona</h2>
-Para executar esse teste precisa instalar a lib Scrapy, sqlite3, pymongo, pandas e flask.
+Para executar esse teste precisa instalar a lib `Scrapy, sqlite3, pymongo, pandas e flask`.
 O bot está no arquivo main.py, Ao executar iniciará a captura dos dados. Ao finalizar a captura
 possui dois arquivos para visualizar o resultado da captura (teste_1.py e teste_2.py). <br>
 O teste_1.py mostra algumas informações, como maior nota e menor nota, média da nota, etc.<br>
