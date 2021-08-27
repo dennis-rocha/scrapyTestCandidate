@@ -5,8 +5,8 @@ Vale a pena mencionar que para este desafio possui duas páginas. Primeira possu
 a segunda possui os dados do respectivo CPF.<br>
 Para este desafio foi construido com a lib Scrapy em python e funciona da seguinte forma:<br>
 
-    * Capturar a lista de CPF's aprovados na primeira página
-    * Capturar nome e score do candidato
+* Capturar a lista de CPF's aprovados na primeira página
+* Capturar nome e score do candidato
     
 <br>
 <h2>Como Funciona</h2>
@@ -26,6 +26,7 @@ e encerrará a captura do bot.<br>
 <br>
 
 <h2>Requisitos</h2>
+
 - Criar um serviço usando uma dessas linguagens: GO, Python, Java, C#, Javascript/Typescript (NodeJS), 
     PHP, Dart, Rust que capture a lista de pessoas listadas como aprovadas em um vestibular (dados fictícios) e que são 
     disponibilizadas no seguinte site https://sample-university-site.herokuapp.com/.
