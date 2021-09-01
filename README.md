@@ -24,28 +24,3 @@ que contém uma lista com CPF's, o bot guardará essa lista de CPF's e então fa
 para a próxima página "approvals/2" e assim por diante até a página 4672 que não comtém o botão next
 e encerrará a captura do bot.<br>
 <br>
-
-<h2>Requisitos</h2>
-
-- Criar um serviço usando uma dessas linguagens: GO, Python, Java, C#, Javascript/Typescript (NodeJS), 
-    PHP, Dart, Rust que capture a lista de pessoas listadas como aprovadas em um vestibular (dados fictícios) e que são 
-    disponibilizadas no seguinte site `https://sample-university-site.herokuapp.com/`.
-
-- Este serviço deve persistir em um banco de dados (pode ser um MySQL, Postgres ou outro banco de dados SQL que 
-    você se sinta mais à vontade) todos os dados capturados/coletados do site (CPFs, nomes e scores).
-
-- Deve-se fazer o split dos dados em colunas no banco de dados. Obs: pode ser feito diretamente no serviço ou em sql.
-
-- Realizar higienização dos dados após persistência (sem acento, maiúsculas, etc).
-
-- Validar os CPFs contidos (válidos e não válidos numericamente).
-
-- Utilização de melhores práticas de desenvolvimento (nomenclatura, funções, classes, testes, etc);
-
-- Utilização dos recursos mais recentes das linguagens;
-
-- Boa organização lógica e documental (readme, comentários, etc);
-
-- Cobertura de todos os requisitos;
-
-- Performance na execução da captura;
